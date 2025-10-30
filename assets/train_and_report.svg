@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <style>
+    .code { font: 16px 'Courier New', monospace; fill: #eaeaea; }
+    .bg { fill: #1e1e1e; }
+    .title { font: bold 24px 'Segoe UI', sans-serif; fill: #f0db4f; }
+  </style>
+  <rect class="bg" x="0" y="0" width="900" height="400" rx="16" ry="16" />
+  <text class="title" x="30" y="50">train_and_report helper</text>
+  <text class="code" x="30" y="90"># STEP 4.0: Model creation preparation</text>
+  <text class="code" x="30" y="120">def train_and_report(name, model, Xtr, ytr, Xte, yte, kind="flat", scaler_obj=None, sample_show=5):</text>
+  <text class="code" x="30" y="150">    t0 = time.time()</text>
+  <text class="code" x="30" y="180">    model.fit(Xtr, ytr)</text>
+  <text class="code" x="30" y="210">    train_time = time.time() - t0</text>
+  <text class="code" x="30" y="240">    y_tr_pred = model.predict(Xtr)</text>
+  <text class="code" x="30" y="270">    y_te_pred = model.predict(Xte)</text>
+  <text class="code" x="30" y="300">    tr_acc = accuracy_score(ytr, y_tr_pred)</text>
+  <text class="code" x="30" y="330">    te_acc = accuracy_score(yte, y_te_pred)</text>
+  <text class="code" x="30" y="360">    print(f"{name}: train_acc={tr_acc:.3f} | test_acc={te_acc:.3f} | time={train_time:.2f}s")</text>
+</svg>
