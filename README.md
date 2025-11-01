@@ -37,6 +37,29 @@ It is designed to **evaluate model performance in terms of accuracy and training
 | **Task** | Facial recognition (multi-class classification) |
 
 ---
+## Samples
+
+## Dataset Sample Images
+<img width="1175" height="269" alt="Dataset Sample Images" src="https://github.com/user-attachments/assets/5cd221b5-fc68-4ec0-b724-c05b040dbb0e" />
+
+## MLP Model Predicitons
+<img width="1170" height="269" alt="MLP Model Prediction Sample" src="https://github.com/user-attachments/assets/8d9d020c-9117-4cad-8c5a-aee8601ab56c" />
+
+## Compare Training Accuracy
+<img width="790" height="390" alt="ML Models Train Acc" src="https://github.com/user-attachments/assets/76199024-30ca-4bed-81e2-9712d000c4f4" />
+
+## Compare Test Accuracy
+<img width="790" height="390" alt="ML Models Test Acc" src="https://github.com/user-attachments/assets/7ee34cd0-45bc-4326-a73e-df17e6505e0d" />
+
+## Compare Time (s)
+<img width="790" height="390" alt="ML Model Times" src="https://github.com/user-attachments/assets/72e8be9a-2fba-45fe-a239-e2359081b7e7" />
+
+
+## UI Model Testing
+
+![UI Models Testing ](https://github.com/user-attachments/assets/e84d65fc-d55e-47ef-ab19-1bbf9718649d)
+
+
 
 ## ⚙️ How to Run
 ```bash
