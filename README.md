@@ -1,4 +1,5 @@
 # 🧠 ML Model Benchmark — Olivetti Faces (sklearn)
+#Note: CNN Model require modifications - accuracy should be much higher
 
 ## 📋 Overview
 This project tests and compares multiple **machine learning** and **deep learning models** on the **Olivetti Faces dataset** from `sklearn.datasets.fetch_olivetti_faces`.  
@@ -70,7 +71,7 @@ source .venv/bin/activate          # On Windows: .venv\Scripts\activate
 # 2. Install dependencies
 pip install -r requirements.txt
 
-#Note: CNN Model require modiciation - should be much higher
+#Note: CNN Model require modifications - accuracy should be much higher
 
 # 3. (Optional) enable extras
 # pip install xgboost tensorflow
