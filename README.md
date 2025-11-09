@@ -13,8 +13,8 @@ It is designed to **evaluate model performance in terms of accuracy and training
 | Classical ML | Decision Tree (max_depth=25) | scikit-learn |
 | Ensemble ML | Random Forest (200 estimators) | scikit-learn |
 | Neural Network | Multi-Layer Perceptron (MLP, 256 hidden units) | scikit-learn |
-| Gradient Boosting *(optional)* | XGBoost | xgboost |
-| Deep Learning *(optional)* | Convolutional Neural Network (CNN) | TensorFlow / Keras |
+| Gradient Boosting  | XGBoost | xgboost |
+| Deep Learning  | Convolutional Neural Network (CNN) *Model need configuration* | TensorFlow / Keras |
 
 ---
 
@@ -69,6 +69,8 @@ source .venv/bin/activate          # On Windows: .venv\Scripts\activate
 
 # 2. Install dependencies
 pip install -r requirements.txt
+
+#Note: CNN Model require modiciation - should be much higher
 
 # 3. (Optional) enable extras
 # pip install xgboost tensorflow
