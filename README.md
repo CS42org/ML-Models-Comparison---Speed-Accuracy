@@ -70,8 +70,6 @@ source .venv/bin/activate          # On Windows: .venv\Scripts\activate
 # 2. Install dependencies
 pip install -r requirements.txt
 
-#Note: CNN Model require modifications - accuracy should be much higher
-
 # 3. (Optional) enable extras
 # pip install xgboost tensorflow
 
