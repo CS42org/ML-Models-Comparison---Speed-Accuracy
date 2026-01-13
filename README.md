@@ -47,7 +47,6 @@ It is designed to **evaluate model performance in terms of accuracy and training
 
 ## Compare Training Accuracy
 <img width="518" height="317" alt="image" src="https://github.com/user-attachments/assets/a8ed0d74-8a5d-4a6b-b704-8423a0036551" />
- />
 
 ## Compare Test Accuracy
 <img width="523" height="312" alt="image" src="https://github.com/user-attachments/assets/55b67337-0e92-4a28-b527-a9772b7a4d88" />
