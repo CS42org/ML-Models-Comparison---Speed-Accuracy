@@ -1,5 +1,4 @@
 # 🧠 ML Model Benchmark — Olivetti Faces (sklearn)
-#Note: CNN Model require modifications - accuracy should be much higher
 
 ## 📋 Overview
 This project tests and compares multiple **machine learning** and **deep learning models** on the **Olivetti Faces dataset** from `sklearn.datasets.fetch_olivetti_faces`.  
@@ -12,10 +11,10 @@ It is designed to **evaluate model performance in terms of accuracy and training
 |-----------|--------|----------|
 | Classical ML | K-Nearest Neighbors (K=3) | scikit-learn |
 | Classical ML | Decision Tree (max_depth=25) | scikit-learn |
-| Ensemble ML | Random Forest (200 estimators) | scikit-learn |
+| Ensemble ML | Random Forest (100 estimators) | scikit-learn |
 | Neural Network | Multi-Layer Perceptron (MLP, 256 hidden units) | scikit-learn |
 | Gradient Boosting  | XGBoost | xgboost |
-| Deep Learning  | Convolutional Neural Network (CNN) *Model need configuration* | TensorFlow / Keras |
+| Deep Learning  | Convolutional Neural Network (CNN) (100 Epochs) | TensorFlow / Keras |
 
 ---
 
@@ -44,16 +43,17 @@ It is designed to **evaluate model performance in terms of accuracy and training
 <img width="1175" height="269" alt="Dataset Sample Images" src="https://github.com/user-attachments/assets/5cd221b5-fc68-4ec0-b724-c05b040dbb0e" />
 
 ## MLP Model Predicitons
-<img width="1170" height="269" alt="MLP Model Prediction Sample" src="https://github.com/user-attachments/assets/8d9d020c-9117-4cad-8c5a-aee8601ab56c" />
+<img width="1083" height="259" alt="image" src="https://github.com/user-attachments/assets/d8ef8d41-3e13-4073-9334-0b6cd9e77e06" />
 
 ## Compare Training Accuracy
-<img width="790" height="390" alt="ML Models Train Acc" src="https://github.com/user-attachments/assets/76199024-30ca-4bed-81e2-9712d000c4f4" />
+<img width="518" height="317" alt="image" src="https://github.com/user-attachments/assets/a8ed0d74-8a5d-4a6b-b704-8423a0036551" />
+ />
 
 ## Compare Test Accuracy
-<img width="790" height="390" alt="ML Models Test Acc" src="https://github.com/user-attachments/assets/7ee34cd0-45bc-4326-a73e-df17e6505e0d" />
+<img width="523" height="312" alt="image" src="https://github.com/user-attachments/assets/55b67337-0e92-4a28-b527-a9772b7a4d88" />
 
 ## Compare Time (s)
-<img width="790" height="390" alt="ML Model Times" src="https://github.com/user-attachments/assets/72e8be9a-2fba-45fe-a239-e2359081b7e7" />
+<img width="522" height="311" alt="image" src="https://github.com/user-attachments/assets/e6f09655-129b-4fea-bbe7-aa26f430620b" />
 
 
 ## UI Model Testing
