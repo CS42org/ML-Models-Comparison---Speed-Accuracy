@@ -70,8 +70,5 @@ source .venv/bin/activate          # On Windows: .venv\Scripts\activate
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. (Optional) enable extras
-# pip install xgboost tensorflow
-
-# 4. Run the notebook
+# 3. Run the notebook
 jupyter notebook
