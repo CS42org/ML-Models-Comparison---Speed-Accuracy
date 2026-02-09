@@ -51,7 +51,7 @@ It is designed to **evaluate model performance in terms of accuracy and training
 ## Compare Test Accuracy
 <img width="522" height="311" alt="image" src="https://github.com/user-attachments/assets/e6f09655-129b-4fea-bbe7-aa26f430620b" />
 
-## Compare Time (s)
+## Compare Training Time (s) Log-scale
 <img width="523" height="312" alt="image" src="https://github.com/user-attachments/assets/55b67337-0e92-4a28-b527-a9772b7a4d88" />
 
 
