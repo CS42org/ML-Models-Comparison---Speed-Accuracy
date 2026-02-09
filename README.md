@@ -49,10 +49,10 @@ It is designed to **evaluate model performance in terms of accuracy and training
 <img width="518" height="317" alt="image" src="https://github.com/user-attachments/assets/a8ed0d74-8a5d-4a6b-b704-8423a0036551" />
 
 ## Compare Test Accuracy
-<img width="523" height="312" alt="image" src="https://github.com/user-attachments/assets/55b67337-0e92-4a28-b527-a9772b7a4d88" />
+<img width="522" height="311" alt="image" src="https://github.com/user-attachments/assets/e6f09655-129b-4fea-bbe7-aa26f430620b" />
 
 ## Compare Time (s)
-<img width="522" height="311" alt="image" src="https://github.com/user-attachments/assets/e6f09655-129b-4fea-bbe7-aa26f430620b" />
+<img width="523" height="312" alt="image" src="https://github.com/user-attachments/assets/55b67337-0e92-4a28-b527-a9772b7a4d88" />
 
 
 ## UI Model Testing
