@@ -1,8 +1,7 @@
-python>=3.10
-numpy
-pandas
-matplotlib
-scikit-learn
-ipywidgets
-xgboost
-tensorflow
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+scikit-learn>=1.2
+ipywidgets>=8.0
+xgboost>=1.7
+tensorflow>=2.12
